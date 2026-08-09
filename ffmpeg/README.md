@@ -2,7 +2,17 @@
 
 This directory hosts the Windows FFmpeg SDK used by FCS startup bootstrap.
 
-## FCS slim AV1 build
+## FCS slim AV1 + D3D11VA build
+
+`ffmpeg-n8.1.2-fcs-slim-av1-d3d11va-win64-gpl-shared.zip` is the current
+component-allowlisted SDK. It adds D3D11VA decoding for H.264, HEVC, VP9, and
+AV1 while preserving the FFmpeg 8.1 shared ABI and the previous slim build's
+local media and encoding support.
+
+SHA-256:
+`33ecd0924708dfaa0f7ee2fea89f94c3a82dd5f9111ff82f3aa1bf9c86435d38`
+
+## Previous FCS slim AV1 build
 
 `ffmpeg-n8.1.2-fcs-slim-av1-win64-gpl-shared.zip` is the component-allowlisted
 Windows x86-64 shared build used by Cortado. It retains the FFmpeg 8.1 shared
