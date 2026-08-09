@@ -10,7 +10,7 @@ AV1 while preserving the FFmpeg 8.1 shared ABI and the previous slim build's
 local media and encoding support.
 
 SHA-256:
-`33ecd0924708dfaa0f7ee2fea89f94c3a82dd5f9111ff82f3aa1bf9c86435d38`
+`df4e9cdb1f6c87eef0cc54823da166e603ae46dbf8b1739c140582f331e50ed7`
 
 ## Previous FCS slim AV1 build
 
